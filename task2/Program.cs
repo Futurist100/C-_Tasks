@@ -11,14 +11,14 @@ number = Convert.ToInt32(Console.ReadLine());
 
 int lastNumber = (number * 10)/2 % 10;
 
-if (lastNumber == 5)
+if (lastNumber == 0)
   
   { 
-    Console.WriteLine("Число нечётное "); 
+    Console.WriteLine("Число чётное "); 
   }
   
 else 
   { 
-    Console.WriteLine("Число чётное ");
+    Console.WriteLine("Число нечётное ");
   }
 
